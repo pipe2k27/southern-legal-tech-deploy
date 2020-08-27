@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/southern-legal-tech-deploy/precache-manifest.80a6b063513e84809a0c7c8a4c11ef8d.js"
+  "/southern-legal-tech-deploy/precache-manifest.2d919ace2bd4f59715734f2d9dcc8e78.js"
 );
 
 self.addEventListener('message', (event) => {
