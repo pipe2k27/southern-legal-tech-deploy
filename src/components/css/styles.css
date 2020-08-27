@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: #eb8f8f;
+  background-image: linear-gradient(180deg, #eb8f8f, #c96464);
+  color: white;
+  font-family: europa, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}

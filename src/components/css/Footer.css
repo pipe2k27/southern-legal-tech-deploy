@@ -1,0 +1,16 @@
+.footer {
+  background-color: rgb(68, 68, 68);
+  padding-top: 25px;
+}
+
+.footer-logo {
+  width: 250px;
+}
+
+.instagram {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}

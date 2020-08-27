@@ -1,0 +1,70 @@
+.steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.step-box {
+  width: 300px;
+  height: 230px;
+  background-color: rgb(31, 31, 31);
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.27);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+.step-title {
+  font-size: 2rem;
+  font-family: bebas-neue-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 0 20px;
+}
+
+.step-icon {
+  font-size: 3rem;
+}
+
+.step-desc {
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.folders {
+  width: 100%;
+  max-height: 400px;
+  max-width: 1300px;
+  object-fit: cover;
+  margin: 40px 0;
+}
+
+.aproval {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.colegio {
+}
+
+.uca {
+  height: 150px;
+  width: auto;
+}
+
+.bogas {
+  height: 150px;
+  width: auto;
+}
+
+.long {
+  width: 300px;
+}
