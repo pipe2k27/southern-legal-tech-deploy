@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <div className="header" id="header">
-      <Link to="/">
+      <Link to="/southern-legal-tech-deploy">
         <img
           src={process.env.PUBLIC_URL + "/images/logo.png"}
           alt="logo-word"
@@ -22,13 +22,16 @@ export default function Navbar() {
       </Link>
 
       <div className={clicked ? "navbar drop" : "navbar colapse"}>
-        <Link to="/" className="nav-element">
+        <Link to="/southern-legal-tech-deploy" className="nav-element">
           Home
         </Link>
-        <Link to="/#footer" className="nav-element">
+        <Link to="/southern-legal-tech-deploy" className="nav-element">
           Contacto
         </Link>
-        <Link to="/create-document" className="nav-element">
+        <Link
+          to="/southern-legal-tech-deploy/create-document"
+          className="nav-element"
+        >
           Documentos
         </Link>
       </div>

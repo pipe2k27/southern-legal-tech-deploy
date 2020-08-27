@@ -38,7 +38,10 @@ export default function Steps() {
           </div>
         </div>
       </div>
-      <Link to="/create-document" className="button7 long">
+      <Link
+        to="/southern-legal-tech-deploy/create-document"
+        className="button7 long"
+      >
         <i class="fas fa-file-signature"></i> ¡Seleccioná tu documento!
       </Link>
 

@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Route exact path="/">
+      <Route exact path="/southern-legal-tech-deploy">
         <TextBanner1 />
         <Steps />
       </Route>
-      <Route path="/create-document">
+      <Route path="/southern-legal-tech-deploy/create-document">
         <Create />
       </Route>
       <Footer />

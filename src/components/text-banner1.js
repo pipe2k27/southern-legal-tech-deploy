@@ -30,7 +30,10 @@ export default function TextBanner1() {
                 <option value="audi">Poder general amplio</option>
               </select>{" "}
             </form>
-            <Link to="/create-document" className="button7">
+            <Link
+              to="/southern-legal-tech-deploy/create-document"
+              className="button7"
+            >
               <i class="fas fa-pencil-alt"></i> Comenzar!
             </Link>
             <img
@@ -53,7 +56,10 @@ export default function TextBanner1() {
         className="argentina"
       ></img>
 
-      <Link to="/create-document" className="button7">
+      <Link
+        to="/southern-legal-tech-deploy/create-document"
+        className="button7"
+      >
         Comenzar <i class="fas fa-pencil-alt"></i>
       </Link>
     </div>
